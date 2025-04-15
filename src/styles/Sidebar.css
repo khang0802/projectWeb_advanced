@@ -1,0 +1,23 @@
+.sidebar {
+  background-color: #1e2a38;
+  color: white;
+  padding: 20px;
+  height: 100vh; /* Chiều cao toàn màn hình */
+  width: 220px;
+}
+
+.sidebar-links {
+  margin-top: 20px;
+}
+
+.sidebar-links p {
+  margin: 10px 0;
+  display: block;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.sidebar-links p:hover {
+  color: #00bcd4;
+}
