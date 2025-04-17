@@ -1,20 +1,28 @@
-
-
-.sidebar-links {
-  margin-top: 20px;
+.sidebar {
+  background-color: #82a9cc;
+  padding: 20px;
+  min-width: 250px;
+  height: 100%;
 }
 
-.sidebar-links a {
-  margin: 10px 0;
+.sidebar h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.filter-section label {
   display: block;
-  color: white;
-  cursor: pointer;
-  transition: color 0.3s ease;
-  text-decoration: none;
-  display: block;
+  font-weight: bold;
+  margin-top: 10px;
   margin-bottom: 5px;
 }
 
-.sidebar-links a:hover {
-  color: #00bcd4;
+.filter-section select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
 }

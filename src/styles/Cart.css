@@ -23,4 +23,17 @@
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
   }
+  .remove-btn {
+    margin-left: auto;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .remove-btn:hover {
+    background-color: #c0392b;
+  }
   
